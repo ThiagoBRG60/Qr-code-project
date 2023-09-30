@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+body {
+  background-color: rgb(213, 225, 239);
+}
+
+#title {
+  font-family: outfit;
+  color: rgb(41, 56, 79);
+  font-weight: bolder;
+  font-size: 25px;
+  margin-left: 35px;
+}
+
+#text {
+  font-family: outfit;
+  font-weight: 400;
+  color: rgb(135, 140, 146);
+  margin-left: 35px;
+  font-size: 16px;
+  margin-top: -5px;
+ 
+}
+
+.square {
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  background-color: white;
+  width: 338px;
+  height: 550px;
+  padding: 30px;
+  margin-left: 750px;
+  margin-top: 150px;
+}
+
+img {
+  border-radius: 20px;
+  width: 340px;
+  height: 340px;
+}
